@@ -1,11 +1,14 @@
 # FullStack Monorepo Demonstrative Project
 
-Survey App is a simple full-stack app meant for admins to add, view, delete, send email with a generated link to a survey for self-esteem evaluation and later keep track of results for candidates of their choosing. It consists of 3 packages ("app"-frontend, "mailer"-backend and "server"-backend)
+Survey App is a simple full-stack app meant for admins to add "candidates", view them, delete them, send an email  to them with a generated link to a survey for self-esteem evaluation and later keep track of their results.
+It consists of 3 packages ("app"-frontend, "mailer"-backend and "server"-backend)
 
-*This project serves as an example of implementing multiple full-stack technologies mentioned below, using monorepo with yarn workspaces, "clean-code" structure with both React app and Node service and implementing Authentication.*
+*This project serves as an example of implementing multiple full-stack technologies mentioned below, using monorepo with yarn workspaces, "clean-code" modular structure with a React app, Node server and a Mailer server, as well as implementing OAuth 2.0 Google Authentication.*
+
+
 
 **.env file is pushed to repo only for easy and quick testing purposes, and should never be involved in production**
-
+**database_init.sql also serves for quick-testing purposes, where scripts for creating all the needed tables, initial inserts and constraints are**
 
 
 ## Server
